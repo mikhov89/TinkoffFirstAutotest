@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestsForInterview" duration-ms="23304" started-at="2017-06-21T14:26:22Z" finished-at="2017-06-21T14:26:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23304" started-at="2017-06-21T14:26:22Z" finished-at="2017-06-21T14:26:45Z">
+      <class name="TestsForInterview">
+        <test-method status="PASS" signature="tbFirstTest()[pri:0, instance:TestsForInterview@2f217633]" name="tbFirstTest" duration-ms="16585" started-at="2017-06-21T19:26:22Z" finished-at="2017-06-21T19:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbFirstTest -->
+        <test-method status="PASS" signature="tbSTest()[pri:1, instance:TestsForInterview@2f217633]" name="tbSTest" duration-ms="2123" started-at="2017-06-21T19:26:38Z" finished-at="2017-06-21T19:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbSTest -->
+        <test-method status="PASS" signature="tbTTest()[pri:2, instance:TestsForInterview@2f217633]" name="tbTTest" duration-ms="4584" started-at="2017-06-21T19:26:40Z" finished-at="2017-06-21T19:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbTTest -->
+      </class> <!-- TestsForInterview -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestsForInterview -->
+</testng-results>
