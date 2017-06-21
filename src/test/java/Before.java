@@ -1,4 +1,5 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.FileInputStream;
@@ -41,7 +42,7 @@ public class Before {
 
     public static WebDriver beforeTest()  {
         setProperties();
-        WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.tinkoff.ru/ ");
         return driver;
